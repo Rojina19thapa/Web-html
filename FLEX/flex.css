@@ -1,0 +1,42 @@
+header{
+    padding:20px;
+    background-color:lightslategray;
+    margin-bottom:10px;
+    width:100%;
+    height:70px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.startbarcontent{
+    order: 1;
+    padding:5px;
+    background-color:lightblue;
+    width:200px;
+    height:400px
+}
+.sidebarcontent{
+    order: 2;
+    padding:5px;
+    background-color:lightcoral;
+    width:200px;
+    height: 400px;
+}
+.maincontent{
+    order: 3;
+    padding:5px;
+    background-color:lightblue;
+    width:220px; 
+    height: 400px;
+    }
+.clear{ clear: both;}
+footer{
+    padding:20px; 
+    background-color:lightslategray; 
+    margin-top:10px;
+    width:100%; 
+    height:70px;
+    text-align: center;
+}
