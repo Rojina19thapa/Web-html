@@ -1,0 +1,37 @@
+header{
+     padding:20px;
+    background-color: lightblue;
+    width:100%;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+Nav{
+     padding:20px;
+    background-color: blue;
+    width:100%;
+    text-align: center;
+}
+.main{
+    background-color: lightblue;
+    float: left;
+    width:70%;
+    height:400px;
+    text-align: center;
+}
+.aside{
+    background-color: rgb(182, 182, 228);
+    float: left;
+    width:30%;
+    height:400px;
+    text-align: center;
+}
+.clear{ clear: both;}
+footer{
+    background-color:aquamarine; 
+    width:100%; 
+    padding: 20px;    
+    text-align: center;
+}
